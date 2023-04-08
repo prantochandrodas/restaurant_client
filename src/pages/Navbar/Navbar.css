@@ -1,3 +1,33 @@
 .active {
     color: #1a73e8;
 }
+.animation {
+    transition: 5s;
+    animation-name:animate ;
+    animation-duration: 30s;
+    animation-direction: alternate-reverse;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%{
+        background-image: url('../assets/image.png');
+    }
+    20%{
+        background-image: url('../assets/image2.png');
+    }
+    40%{
+        background-image: url('../assets/image3.png');
+    }
+    60%{
+        background-image: url('../assets/image4.png');
+    } 
+    80%{
+        background-image: url('../assets/image.png');
+    }
+    100%{
+        background-image: url('../assets/image.png');
+    } 
+}
