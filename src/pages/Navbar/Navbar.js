@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import { Link, NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import Banner from '../Banner/Banner';
 import bannerImage from '../assets/image.png'
@@ -12,7 +13,7 @@ const Navbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
         { title: "Meals", path: "/meals" },
-        { title: "Customers", path: "/menu" },
+        { title: "Contact", path: "/contact" },
         { title: "Pricing", path: "/menu" }
     ]
 
@@ -56,7 +57,6 @@ const Navbar = () => {
                                     )
                                 })
                             }
-                           
                         </ul>
                     </div>
                 </div>

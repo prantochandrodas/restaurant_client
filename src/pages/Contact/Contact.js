@@ -3,6 +3,7 @@ import image from '../assets/doodle.svg';
 
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
+import Location from '../Location/Location';
 const Contact = () => {
     const form = useRef();
 
@@ -38,11 +39,12 @@ const Contact = () => {
     };
     return (
         <div>
-            <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-800 text-gray-100">
+            <Location></Location>
+            <div  id='Contact' className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-800 text-gray-100">
                 <div data-aos="fade-right" data-aos-duration="1000" className="flex flex-col justify-between">
                     <div className="space-y-2">
                         <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
-                        <div className="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
+                        <div className="dark:text-gray-400">If you want to talk? send message.</div>
                     </div>
                     <img src={image} alt="" className="p-6 h-52 md:h-64" />
                 </div>

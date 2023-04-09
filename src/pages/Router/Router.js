@@ -1,4 +1,5 @@
 import Foods from "../../Foods/Foods";
+import Contact from "../Contact/Contact";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
 
@@ -16,6 +17,11 @@ export const router=createBrowserRouter([
             {
                 path:'/meals',
                 element:<Foods></Foods>
+            },
+            {
+                path:'/contact',
+                element:<Contact></Contact>
+
             }
         ]
     }
