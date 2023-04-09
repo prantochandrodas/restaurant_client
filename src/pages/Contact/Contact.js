@@ -13,7 +13,7 @@ const Contact = () => {
       emailjs.sendForm('service_3umy9mj', 'template_e6of1b5', form.current, 'FqD8ZBIFTHtTxuI_O')
         .then((result) => {
             console.log(result.text);
-            toast.success(' Wow so easy!', {
+            toast.success('Sucessfully sent', {
                 position: "top-center",
                 autoClose: 5000,
                 hideProgressBar: false,
