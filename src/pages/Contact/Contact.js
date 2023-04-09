@@ -41,14 +41,14 @@ const Contact = () => {
         <div>
             <Location></Location>
             <div  id='Contact' className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-gray-800 text-gray-100">
-                <div data-aos="fade-right" data-aos-duration="1000" className="flex flex-col justify-between">
+                <div data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col justify-between">
                     <div className="space-y-2">
                         <h2 className="text-4xl font-bold leading-tight lg:text-5xl">Let's talk!</h2>
                         <div className="dark:text-gray-400">If you want to talk? send message.</div>
                     </div>
                     <img src={image} alt="" className="p-6 h-52 md:h-64" />
                 </div>
-                <form data-aos="fade-left" data-aos-duration="1000" novalidate="" className="space-y-6 ng-untouched ng-pristine ng-valid" ref={form} onSubmit={sendEmail}>
+                <form data-aos="zoom-in" data-aos-duration="1000" novalidate="" className="space-y-6 ng-untouched ng-pristine ng-valid" ref={form} onSubmit={sendEmail}>
                     <div>
                         <label for="name" className="text-sm">Full name</label>
                         <input name='full_name' id="name" type="text" placeholder="" className="w-full p-3 rounded bg-gray-800 border border-white" />
