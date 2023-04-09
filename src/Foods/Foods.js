@@ -20,9 +20,9 @@ const Foods = () => {
         return <Loading></Loading>
     }
     return (
-        <div className='lg:grid block lg:grid-cols-3 lg:gap-5 w-[95%] mx-auto'>
+        <div data-aos="zoom-in" data-aos-duration="1000" className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-5 w-[95%] mx-auto'>
             {
-                meals?.map(meal=><Food
+                meals?.slice(0,24).map(meal=><Food
                     key={meal.idMeal}
                     meal={meal}
                 ></Food>)

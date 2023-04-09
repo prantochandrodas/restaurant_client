@@ -48,11 +48,11 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className={`flex-1 pb-3 lg:mt-8 mt-0 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
-                        <ul className="justify-end items-center space-y-6 flex flex-col bg-white lg:flex-row  lg:bg-inherit md:flex md:space-x-6 md:space-y-0">
+                        <ul className="justify-end items-center space-y-6 flex flex-col bg-white lg:flex-row md:bg-inherit lg:bg-inherit md:flex-row md:flex md:space-x-6 md:space-y-0">
                             {
                                 navigation.map((item, idx) => {
                                     return (
-                                        <NavLink className="text-lg inline-flex gap-1.5  font-medium lg:text-white text-black" to={item.path}>{item.title}</NavLink>
+                                        <NavLink className="text-lg inline-flex gap-1.5  font-medium md:text-white lg:text-white text-black" to={item.path}>{item.title}</NavLink>
                                     )
                                 })
                             }

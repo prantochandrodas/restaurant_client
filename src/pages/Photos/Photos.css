@@ -11,6 +11,22 @@
 .box img{
     width: 100%;
 }
+@media screen and (min-width:687px) and (max-width:991px) {
+    .con {
+        width: 96%;
+        margin: 0px auto;
+        columns:4!important;
+        column-gap: 0px;
+    }
+    .box {
+        width: 180px;
+        margin-bottom: 4px;
+    }
+    .box img{
+        width: 100%;
+    }
+    
+}
 @media only screen and (max-width:688px) {
     .con {
         width: 96%;

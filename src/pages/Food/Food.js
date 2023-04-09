@@ -2,12 +2,12 @@ import React from 'react';
 
 const Food = ({ meal }) => {
     return (
-        <div className='my-4'>
+        <div className='my-4 md:w-[350px]'>
             <a href="#" class="group relative block bg-black">
                 <img
                     alt="Developer"
                     src={meal.strMealThumb}
-                    class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+                    class="absolute inset-0 h-full w-full  lg:w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
                 />
 
                 <div class="relative p-4 sm:p-6 lg:p-8">
@@ -19,7 +19,7 @@ const Food = ({ meal }) => {
 
                     <div class="mt-32 sm:mt-48 lg:mt-64">
                         <div
-                            class="lg:translate-y-8 transform  transition-all lg:translate-y-0 lg:opacity-100"
+                            class="transform  transition-all lg:translate-y-0 lg:opacity-100"
                         >
                             <p class="text-sm text-white">
                                 {meal.strInstructions.slice(0,200)}...

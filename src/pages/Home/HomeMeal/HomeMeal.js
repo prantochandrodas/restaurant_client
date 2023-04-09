@@ -21,9 +21,9 @@ const HomeMeal = () => {
         return <Loading></Loading>
     }
     return (
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="1000">
             <h2 className='text-center text-2xl'>Meals</h2>
-            <div className='lg:grid block lg:grid-cols-3 lg:gap-5 w-[95%] mx-auto'>
+            <div className='lg:grid md:grid-cols-2 grid sm:grid-col-1 lg:grid-cols-3 lg:gap-5 w-[95%] mx-auto'>
                 {
                     meals?.slice(0, 6).map(meal => <Food
                         key={meal.idMeal}
