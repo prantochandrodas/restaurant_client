@@ -1,16 +1,25 @@
 import React, { useEffect, useState } from 'react';
 import Food from '../../Food/Food';
 import { Link } from 'react-router-dom';
+import Loading from '../../Loading/Loading';
 
 const HomeMeal = () => {
+    const [loading,isLoading]=useState(false);
     const [meals, setMeals] = useState([]);
     useEffect(() => {
+        isLoading(true);
         fetch('https://www.themealdb.com/api/json/v1/1/search.php?s=a')
             .then(res => {
                 return res.json();
             })
-            .then(data => setMeals(data.meals));
+            .then(data => {
+                setMeals(data.meals);
+                isLoading(false)
+            });
     }, [])
+    if(loading){
+        return <Loading></Loading>
+    }
     return (
         <div>
             <h2 className='text-center text-2xl'>Meals</h2>

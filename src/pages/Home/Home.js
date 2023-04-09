@@ -4,6 +4,7 @@ import Photos from '../Photos/Photos';
 import Events from '../Events/Events';
 import Foods from '../../Foods/Foods';
 import HomeMeal from './HomeMeal/HomeMeal';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
            <HomeMeal></HomeMeal>
            <Photos></Photos>
            <Events></Events>
+           <Contact></Contact>
         </div>
     );
 };

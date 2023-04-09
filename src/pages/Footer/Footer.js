@@ -6,7 +6,7 @@ import gmail from '../assets/Footer/gmail.png'
 
 const Footer = () => {
     return (
-        <div data-aos="zoom-in" data-aos-duration="1000" style={{background:'rgba(6,34,63,255)',color:'white'}}>
+        <div style={{background:'rgba(6,34,63,255)',color:'white'}}>
             <footer className="footer p-10">
                 <div>
                     <span className="footer-title">Services</span>
