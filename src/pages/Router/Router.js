@@ -1,3 +1,4 @@
+import Foods from "../../Foods/Foods";
 import Home from "../Home/Home";
 import Main from "../Main/Main";
 
@@ -11,6 +12,10 @@ export const router=createBrowserRouter([
             {
                 path:'/',
                 element:<Home></Home>
+            },
+            {
+                path:'/meals',
+                element:<Foods></Foods>
             }
         ]
     }

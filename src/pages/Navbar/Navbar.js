@@ -10,8 +10,8 @@ const Navbar = () => {
 
     // Replace javascript:void(0) paths with your paths
     const navigation = [
-        { title: "Features", path: "/" },
-        { title: "Integrations", path: "/menu" },
+        { title: "Home", path: "/" },
+        { title: "Meals", path: "/meals" },
         { title: "Customers", path: "/menu" },
         { title: "Pricing", path: "/menu" }
     ]
