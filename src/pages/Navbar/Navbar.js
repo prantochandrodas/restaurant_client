@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import './Navbar.css'
 import Banner from '../Banner/Banner';
-import bannerImage from '../assets/image.png'
+import bannerImage from '../assets/image2-min-min.png'
 const Navbar = () => {
 
     const [state, setState] = useState(false)

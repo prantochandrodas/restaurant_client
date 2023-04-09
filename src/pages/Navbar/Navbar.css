@@ -13,21 +13,21 @@
 }
 @keyframes animate{
     0%{
-        background-image: url('../assets/image.png');
+        background-image: url('../assets/image-min-min.png');
     }
     20%{
-        background-image: url('../assets/image2.png');
+        background-image: url('../assets/image2-min-min.png');
     }
     40%{
-        background-image: url('../assets/image3.png');
+        background-image: url('../assets/image3-min-min.png');
     }
     60%{
-        background-image: url('../assets/image4.png');
+        background-image: url('../assets/image4-min-min.png');
     } 
     80%{
-        background-image: url('../assets/image.png');
+        background-image: url('../assets/image-min-min.png');
     }
     100%{
-        background-image: url('../assets/image.png');
+        background-image: url('../assets/image2-min-min.png');
     } 
 }

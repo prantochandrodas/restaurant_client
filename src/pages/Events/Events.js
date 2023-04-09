@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerImage from '../assets/image_new.png'
+import bannerImage from '../assets/image2-min-min.png'
 const Events = () => {
     return (
         <div data-aos="zoom-in" data-aos-duration="1000" style={{ backgroundImage: `url(${bannerImage})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }} className='lg:mt-10 mt-4'>
