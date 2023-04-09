@@ -6,7 +6,7 @@ const Banner = () => {
             <div className="hero-content align-left">
                 <div>
                     <h1 className="text-6xl font-bold">Delicious Recipes</h1>
-                    <p className="py-6 text-lg">Inappropriate behavior is often laughed off as 'boys will <br /> be boys' woman  face higher conduct standards especially in <br /> the workplace .That's why it's crucial that as woman.</p>
+                    <p className="py-6 text-lg">Inappropriate behavior is often laughed off as 'boys will <span className='lg:inline hidden'><br /></span> be boys' woman  face higher conduct standards especially in <br /> the workplace .That's why it's crucial that as woman.</p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>
